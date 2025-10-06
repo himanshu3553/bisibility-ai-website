@@ -17,6 +17,11 @@ export const metadata: Metadata = {
   authors: [{ name: 'Bisibility Team' }],
   creator: 'Bisibility',
   publisher: 'Bisibility',
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
   formatDetection: {
     email: false,
     address: false,

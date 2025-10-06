@@ -1,0 +1,12 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="16" fill="#171717"/>
+  
+  <!-- Letter B -->
+  <path d="M8 8h6c2.5 0 4.5 2 4.5 4.5S16.5 17 14 17H8V8zM8 8v16h6c2.5 0 4.5-2 4.5-4.5S16.5 15 14 15H8z" fill="white"/>
+  
+  <!-- Chart bars representing visibility -->
+  <rect x="20" y="20" width="2" height="8" fill="#0284c7"/>
+  <rect x="23" y="18" width="2" height="10" fill="#0284c7"/>
+  <rect x="26" y="16" width="2" height="12" fill="#0284c7"/>
+</svg>
