@@ -28,7 +28,9 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center space-x-2 mb-4">
-              <BarChart3 className="h-8 w-8 text-white" />
+              <div className="h-8 w-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                <BarChart3 className="h-5 w-5 text-white" />
+              </div>
               <span className="text-2xl font-bold">Bisibility AI</span>
             </Link>
             <p className="text-primary-300 mb-4">
@@ -36,11 +38,11 @@ export default function Footer() {
             </p>
             <div className="space-y-2">
               <div className="flex items-center space-x-2 text-primary-300">
-                <Mail className="h-4 w-4" />
+                <Mail className="h-4 w-4 text-primary-400" />
                 <span>hello@bisibility.ai</span>
               </div>
               <div className="flex items-center space-x-2 text-primary-300">
-                <MapPin className="h-4 w-4" />
+                <MapPin className="h-4 w-4 text-primary-400" />
                 <span>Bisibility AI Pvt. Ltd., Gurugram, India</span>
               </div>
             </div>

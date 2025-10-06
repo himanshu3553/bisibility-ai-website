@@ -38,7 +38,9 @@ export default function ContactForm() {
 
       {isSubmitted ? (
         <div className="bg-green-50 border border-green-200 rounded-lg p-6 text-center">
-          <CheckCircle className="h-12 w-12 text-green-500 mx-auto mb-4" />
+          <div className="h-12 w-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+            <CheckCircle className="h-8 w-8 text-white" />
+          </div>
           <h3 className="text-lg font-semibold text-green-900 mb-2">
             Thank you for your message!
           </h3>
@@ -137,7 +139,9 @@ export default function ContactForm() {
             className="w-full bg-primary-900 text-white px-6 py-4 rounded-lg font-semibold hover:bg-primary-800 transition-colors duration-200 flex items-center justify-center"
           >
             Send Message
-            <Send className="ml-2 h-5 w-5" />
+            <div className="ml-2 h-5 w-5 bg-gradient-to-r from-blue-600 to-purple-600 rounded flex items-center justify-center">
+              <Send className="h-3 w-3 text-white" />
+            </div>
           </button>
         </form>
       )}

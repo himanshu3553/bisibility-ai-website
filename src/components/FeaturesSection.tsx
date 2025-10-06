@@ -91,8 +91,8 @@ export default function FeaturesSection() {
           {features.map((feature, index) => (
             <div key={index} className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-200 border border-primary-100">
               <div className="flex items-start space-x-4">
-                <div className="bg-primary-100 rounded-lg p-3 flex-shrink-0">
-                  <feature.icon className="h-6 w-6 text-primary-600" />
+                <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg p-3 flex-shrink-0">
+                  <feature.icon className="h-6 w-6 text-white" />
                 </div>
                 <div className="flex-1">
                   <h3 className="text-lg font-semibold text-primary-900 mb-2">

@@ -107,7 +107,7 @@ export default function HeroSection() {
             </div>
 
             {/* Trust Indicators */}
-            <div className="flex items-center space-x-8 pt-8">
+            {/* <div className="flex items-center space-x-8 pt-8">
               <div className="flex items-center space-x-2">
                 <BarChart3 className="h-5 w-5 text-primary-600" />
                 <span className="text-sm text-primary-600 font-medium">Real-time Analytics</span>
@@ -120,7 +120,7 @@ export default function HeroSection() {
                 <Target className="h-5 w-5 text-primary-600" />
                 <span className="text-sm text-primary-600 font-medium">Multi-Platform Tracking</span>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Right Column - Visual */}

@@ -76,13 +76,13 @@ export default function PricingSection() {
               key={index} 
               className={`bg-white rounded-2xl p-8 relative ${
                 plan.popular 
-                  ? 'ring-2 ring-primary-600 shadow-xl scale-105' 
+                  ? 'ring-2 ring-blue-600 shadow-xl scale-105' 
                   : 'shadow-sm border border-primary-100'
               }`}
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <div className="bg-primary-600 text-white px-4 py-1 rounded-full text-sm font-semibold flex items-center">
+                  <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-1 rounded-full text-sm font-semibold flex items-center">
                     <Star className="h-4 w-4 mr-1" />
                     Most Popular
                   </div>
@@ -119,7 +119,7 @@ export default function PricingSection() {
                 href={plan.name === 'Enterprise' ? '/contact' : '/contact'}
                 className={`w-full block text-center py-3 px-6 rounded-lg font-semibold transition-colors duration-200 ${
                   plan.popular
-                    ? 'bg-primary-600 text-white hover:bg-primary-700'
+                    ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:from-blue-700 hover:to-purple-700'
                     : 'bg-primary-100 text-primary-900 hover:bg-primary-200'
                 }`}
               >

@@ -34,7 +34,9 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <BarChart3 className="h-8 w-8 text-primary-900" />
+            <div className="h-8 w-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+              <BarChart3 className="h-5 w-5 text-white" />
+            </div>
             <span className="text-2xl font-bold gradient-text">Bisibility AI</span>
           </Link>
 

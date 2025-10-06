@@ -141,12 +141,8 @@ export default function PricingPage() {
                 )}
 
                 <div className="text-center mb-8">
-                  <div className={`rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 ${
-                    plan.color === 'primary' ? 'bg-primary-100' : 'bg-secondary-100'
-                  }`}>
-                    <plan.icon className={`h-8 w-8 ${
-                      plan.color === 'primary' ? 'text-primary-600' : 'text-secondary-600'
-                    }`} />
+                  <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                    <plan.icon className="h-8 w-8 text-white" />
                   </div>
                   <h3 className="text-2xl font-bold text-primary-900 mb-2">
                     {plan.name}

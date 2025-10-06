@@ -61,8 +61,8 @@ export default function ContactPage() {
               <div className="space-y-6">
                 {contactInfo.map((info, index) => (
                   <div key={index} className="flex items-start space-x-4">
-                    <div className="bg-primary-100 rounded-lg p-3 flex-shrink-0">
-                      <info.icon className="h-6 w-6 text-primary-600" />
+                    <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg p-3 flex-shrink-0">
+                      <info.icon className="h-6 w-6 text-white" />
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-primary-900 mb-1">
