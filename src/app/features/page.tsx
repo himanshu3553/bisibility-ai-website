@@ -254,15 +254,17 @@ export default function FeaturesPage() {
             <Link 
               href="/contact" 
               className="bg-white text-primary-900 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-primary-100 transition-colors duration-200 flex items-center justify-center"
+              aria-label="Start your free trial of Bisibility AI brand analytics platform"
             >
-              Start Free Trial
+              Start Your Free Trial
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
             <Link 
               href="/pricing" 
               className="border border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-primary-900 transition-colors duration-200"
+              aria-label="View Bisibility AI pricing plans and features"
             >
-              View Pricing
+              View Pricing Plans
             </Link>
           </div>
         </div>
