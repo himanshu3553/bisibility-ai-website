@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import { BarChart3, Target, Users, Lightbulb } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'About Bisibility - AI Brand Visibility Analytics',
-  description: 'Learn about Bisibility\'s mission to help businesses track and optimize their brand performance across AI search platforms like ChatGPT, Perplexity, Claude, and Gemini.',
+  title: 'About Bisibility AI - AI Brand Visibility Analytics',
+  description: 'Learn about Bisibility AI\'s mission to help businesses track and optimize their brand performance across AI search platforms like ChatGPT, Perplexity, Claude, and Gemini.',
   keywords: ['about bisibility', 'AI brand analytics', 'company mission', 'team', 'AI search monitoring'],
 }
 
@@ -38,7 +38,7 @@ export default function AboutPage() {
         <div className="container-max section-padding">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-6xl font-bold text-primary-900 mb-6">
-              About <span className="gradient-text">Bisibility</span>
+              About <span className="gradient-text">Bisibility AI</span>
             </h1>
             <p className="text-xl text-primary-700 leading-relaxed">
               We're on a mission to help businesses navigate the new era of AI-powered search. 
@@ -63,7 +63,7 @@ export default function AboutPage() {
                 presence in this emerging landscape.
               </p>
               <p className="text-lg text-primary-700 mb-6 leading-relaxed">
-                Bisibility bridges this gap by providing comprehensive analytics and insights 
+                Bisibility AI bridges this gap by providing comprehensive analytics and insights 
                 into how your brand performs across AI search platforms. We help you understand 
                 your visibility, track sentiment, and optimize your content strategy for 
                 maximum impact in the AI era.
@@ -106,7 +106,7 @@ export default function AboutPage() {
               Our Values
             </h2>
             <p className="text-xl text-primary-700 max-w-3xl mx-auto">
-              These core values guide everything we do at Bisibility
+              These core values guide everything we do at Bisibility AI
             </p>
           </div>
 

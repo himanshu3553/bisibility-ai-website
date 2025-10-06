@@ -17,7 +17,7 @@ export default function CTASection() {
           </h2>
           
           <p className="text-xl text-primary-200 mb-8 leading-relaxed">
-            Join hundreds of companies already using Bisibility to track, analyze, 
+            Join hundreds of companies already using Bisibility AI to track, analyze, 
             and improve their brand performance across AI search platforms. 
             Start your free trial today and see the difference.
           </p>

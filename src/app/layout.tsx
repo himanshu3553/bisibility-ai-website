@@ -9,14 +9,14 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: {
-    default: 'Bisibility - AI Brand Visibility Analytics',
-    template: '%s | Bisibility'
+    default: 'Bisibility AI - AI Brand Visibility Analytics',
+    template: '%s | Bisibility AI'
   },
   description: 'Track, analyze, and improve your brand performance on AI search platforms like ChatGPT, Perplexity, Claude, and Gemini. Get insights on visibility, position, and sentiment.',
   keywords: ['AI search', 'brand visibility', 'ChatGPT analytics', 'Perplexity tracking', 'Claude monitoring', 'Gemini insights', 'brand performance', 'AI platforms'],
-  authors: [{ name: 'Bisibility Team' }],
-  creator: 'Bisibility',
-  publisher: 'Bisibility',
+  authors: [{ name: 'Bisibility AI Team' }],
+  creator: 'Bisibility AI',
+  publisher: 'Bisibility AI',
   icons: {
     icon: '/favicon.svg',
     shortcut: '/favicon.svg',
@@ -27,21 +27,21 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://bisibility.com'),
+  metadataBase: new URL('https://bisibility.ai'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://bisibility.com',
-    title: 'Bisibility - AI Brand Visibility Analytics',
+    url: 'https://bisibility.ai',
+    title: 'Bisibility AI - AI Brand Visibility Analytics',
     description: 'Track, analyze, and improve your brand performance on AI search platforms like ChatGPT, Perplexity, Claude, and Gemini.',
-    siteName: 'Bisibility',
+    siteName: 'Bisibility AI',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bisibility - AI Brand Visibility Analytics',
+    title: 'Bisibility AI - AI Brand Visibility Analytics',
     description: 'Track, analyze, and improve your brand performance on AI search platforms like ChatGPT, Perplexity, Claude, and Gemini.',
     creator: '@bisibility',
   },

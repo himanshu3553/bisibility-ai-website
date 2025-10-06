@@ -37,7 +37,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <BarChart3 className="h-8 w-8 text-primary-900" />
-            <span className="text-2xl font-bold gradient-text">Bisibility</span>
+            <span className="text-2xl font-bold gradient-text">Bisibility AI</span>
           </Link>
 
           {/* Desktop Navigation */}

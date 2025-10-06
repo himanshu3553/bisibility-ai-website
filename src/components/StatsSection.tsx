@@ -36,7 +36,7 @@ export default function StatsSection() {
             Trusted by Leading Brands
           </h2>
           <p className="text-xl text-primary-700 max-w-3xl mx-auto">
-            Join hundreds of companies already using Bisibility to optimize their AI search presence
+            Join hundreds of companies already using Bisibility AI to optimize their AI search presence
           </p>
         </div>
 

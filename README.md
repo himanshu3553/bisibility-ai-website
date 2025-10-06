@@ -1,6 +1,6 @@
-# Bisibility - AI Brand Visibility Analytics
+# Bisibility AI - AI Brand Visibility Analytics
 
-Bisibility is a comprehensive AI brand visibility analytics platform that helps businesses track, analyze, and improve their brand performance across AI search platforms like ChatGPT, Perplexity, Claude, and Gemini.
+Bisibility AI is a comprehensive AI brand visibility analytics platform that helps businesses track, analyze, and improve their brand performance across AI search platforms like ChatGPT, Perplexity, Claude, and Gemini.
 
 ## Features
 
@@ -129,7 +129,7 @@ This project is licensed under the MIT License.
 
 ## Support
 
-For support, email hello@bisibility.com or visit our contact page.
+For support, email hello@bisibility.ai or visit our contact page.
 
 ## Roadmap
 

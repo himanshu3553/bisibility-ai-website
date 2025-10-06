@@ -6,7 +6,7 @@ export default function TestimonialsSection() {
       name: 'Sarah Chen',
       role: 'Marketing Director',
       company: 'TechFlow Inc.',
-      content: 'Bisibility has revolutionized how we track our brand presence in AI search. The insights are incredibly detailed and actionable.',
+      content: 'Bisibility AI has revolutionized how we track our brand presence in AI search. The insights are incredibly detailed and actionable.',
       rating: 5,
       avatar: 'SC'
     },
@@ -30,7 +30,7 @@ export default function TestimonialsSection() {
       name: 'David Kim',
       role: 'Head of Digital',
       company: 'FutureBrand',
-      content: 'Bisibility\'s dashboard gives us complete visibility into our AI search performance. The historical tracking shows our improvement over time.',
+      content: 'Bisibility AI\'s dashboard gives us complete visibility into our AI search performance. The historical tracking shows our improvement over time.',
       rating: 5,
       avatar: 'DK'
     },
@@ -46,7 +46,7 @@ export default function TestimonialsSection() {
       name: 'James Wilson',
       role: 'Founder',
       company: 'AI Ventures',
-      content: 'As an AI-focused company, we needed a tool that understands the nuances of AI search. Bisibility delivers exactly what we need.',
+      content: 'As an AI-focused company, we needed a tool that understands the nuances of AI search. Bisibility AI delivers exactly what we need.',
       rating: 5,
       avatar: 'JW'
     }
@@ -60,7 +60,7 @@ export default function TestimonialsSection() {
             What Our Customers Say
           </h2>
           <p className="text-xl text-primary-700 max-w-3xl mx-auto">
-            Join hundreds of companies already using Bisibility to optimize their AI search presence
+            Join hundreds of companies already using Bisibility AI to optimize their AI search presence
           </p>
         </div>
 

@@ -3,8 +3,8 @@ import { Shield, Users, Database, Eye, Lock, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'GDPR Compliance - Bisibility AI Brand Analytics',
-  description: 'Learn about Bisibility\'s GDPR compliance and how we protect your data rights under the General Data Protection Regulation.',
-  keywords: ['GDPR compliance', 'data protection', 'privacy rights', 'EU data protection', 'Bisibility GDPR'],
+  description: 'Learn about Bisibility AI\'s GDPR compliance and how we protect your data rights under the General Data Protection Regulation.',
+  keywords: ['GDPR compliance', 'data protection', 'privacy rights', 'EU data protection', 'Bisibility AI GDPR'],
 }
 
 export default function GDPRPage() {
@@ -62,7 +62,7 @@ export default function GDPRPage() {
               GDPR <span className="gradient-text">Compliance</span>
             </h1>
             <p className="text-xl text-primary-700 leading-relaxed">
-              Bisibility is committed to full compliance with the General Data Protection Regulation (GDPR). 
+              Bisibility AI is committed to full compliance with the General Data Protection Regulation (GDPR). 
               Learn about your data rights and how we protect your personal information.
             </p>
             <p className="text-sm text-primary-600 mt-4">
@@ -81,7 +81,7 @@ export default function GDPRPage() {
               <h2 className="text-2xl font-bold text-primary-900 mb-6">Our GDPR Commitment</h2>
               <p className="text-primary-700 leading-relaxed mb-4">
                 The General Data Protection Regulation (GDPR) is a comprehensive data protection law that came into effect 
-                on May 25, 2018, in the European Union. Bisibility is fully committed to complying with GDPR requirements 
+                on May 25, 2018, in the European Union. Bisibility AI is fully committed to complying with GDPR requirements 
                 and protecting the privacy rights of all individuals whose personal data we process.
               </p>
               <p className="text-primary-700 leading-relaxed">
@@ -191,7 +191,7 @@ export default function GDPRPage() {
                   </p>
                   <div className="bg-white rounded-lg p-4">
                     <p className="text-primary-700">
-                      <strong>Email:</strong> dpo@bisibility.com
+                      <strong>Email:</strong> dpo@bisibility.ai
                     </p>
                   </div>
                 </div>
@@ -229,10 +229,10 @@ export default function GDPRPage() {
                     <h3 className="text-lg font-semibold text-primary-900 mb-3">Contact Methods</h3>
                     <div className="space-y-2">
                       <p className="text-primary-700">
-                        <strong>Email:</strong> privacy@bisibility.com
+                        <strong>Email:</strong> privacy@bisibility.ai
                       </p>
                       <p className="text-primary-700">
-                        <strong>DPO Email:</strong> dpo@bisibility.com
+                        <strong>DPO Email:</strong> dpo@bisibility.ai
                       </p>
                     </div>
                   </div>

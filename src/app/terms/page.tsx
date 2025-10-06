@@ -3,8 +3,8 @@ import { FileText, Scale, Shield, AlertTriangle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Terms of Service - Bisibility AI Brand Analytics',
-  description: 'Read Bisibility\'s Terms of Service to understand your rights and responsibilities when using our AI brand analytics platform.',
-  keywords: ['terms of service', 'terms and conditions', 'Bisibility terms', 'AI analytics terms'],
+  description: 'Read Bisibility AI\'s Terms of Service to understand your rights and responsibilities when using our AI brand analytics platform.',
+  keywords: ['terms of service', 'terms and conditions', 'Bisibility AI terms', 'AI analytics terms'],
 }
 
 export default function TermsOfServicePage() {
@@ -13,7 +13,7 @@ export default function TermsOfServicePage() {
       icon: FileText,
       title: 'Acceptance of Terms',
       content: [
-        'By accessing or using Bisibility, you agree to be bound by these Terms of Service',
+        'By accessing or using Bisibility AI, you agree to be bound by these Terms of Service',
         'If you disagree with any part of these terms, you may not access the service',
         'These terms apply to all visitors, users, and others who access or use the service',
         'We reserve the right to update these terms at any time without prior notice'
@@ -23,7 +23,7 @@ export default function TermsOfServicePage() {
       icon: Scale,
       title: 'Use License',
       content: [
-        'Permission is granted to temporarily use Bisibility for personal and commercial purposes',
+        'Permission is granted to temporarily use Bisibility AI for personal and commercial purposes',
         'You may not modify or copy the materials for any commercial purpose',
         'You may not attempt to reverse engineer or extract source code',
         'This license shall automatically terminate if you violate any of these restrictions'
@@ -61,7 +61,7 @@ export default function TermsOfServicePage() {
               Terms of <span className="gradient-text">Service</span>
             </h1>
             <p className="text-xl text-primary-700 leading-relaxed">
-              These Terms of Service govern your use of Bisibility's AI brand analytics platform. 
+              These Terms of Service govern your use of Bisibility AI's AI brand analytics platform. 
               Please read these terms carefully before using our service.
             </p>
             <p className="text-sm text-primary-600 mt-4">
@@ -120,7 +120,7 @@ export default function TermsOfServicePage() {
               <div>
                 <h3 className="text-xl font-semibold text-primary-900 mb-4">Service Description</h3>
                 <p className="text-primary-700 leading-relaxed mb-4">
-                  Bisibility provides AI brand visibility analytics services, including but not limited to:
+                  Bisibility AI provides AI brand visibility analytics services, including but not limited to:
                 </p>
                 <ul className="list-disc list-inside text-primary-700 space-y-2 ml-4">
                   <li>Real-time monitoring of brand mentions across AI platforms</li>
@@ -234,7 +234,7 @@ export default function TermsOfServicePage() {
                 </p>
                 <div className="bg-primary-50 rounded-lg p-6">
                   <p className="text-primary-700 mb-2">
-                    <strong>Email:</strong> legal@bisibility.com
+                    <strong>Email:</strong> legal@bisibility.ai
                   </p>
                   <p className="text-primary-700">
                     <strong>Address:</strong> Bisibility AI Pvt. Ltd., Gurugram, India

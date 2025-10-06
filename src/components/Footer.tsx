@@ -32,7 +32,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center space-x-2 mb-4">
               <BarChart3 className="h-8 w-8 text-white" />
-              <span className="text-2xl font-bold">Bisibility</span>
+              <span className="text-2xl font-bold">Bisibility AI</span>
             </Link>
             <p className="text-primary-300 mb-4">
               Track, analyze, and improve your brand performance on AI search platforms.
@@ -40,7 +40,7 @@ export default function Footer() {
             <div className="space-y-2">
               <div className="flex items-center space-x-2 text-primary-300">
                 <Mail className="h-4 w-4" />
-                <span>hello@bisibility.com</span>
+                <span>hello@bisibility.ai</span>
               </div>
               <div className="flex items-center space-x-2 text-primary-300">
                 <MapPin className="h-4 w-4" />
@@ -105,7 +105,7 @@ export default function Footer() {
         <div className="border-t border-primary-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-primary-300 text-sm">
-              © {currentYear} Bisibility. All rights reserved.
+              © {currentYear} Bisibility AI. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link

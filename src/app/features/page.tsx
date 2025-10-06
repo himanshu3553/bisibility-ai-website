@@ -17,7 +17,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Features - Bisibility AI Brand Analytics Platform',
-  description: 'Discover all the powerful features of Bisibility: real-time analytics, multi-platform monitoring, sentiment analysis, position tracking, and more for AI search optimization.',
+  description: 'Discover all the powerful features of Bisibility AI: real-time analytics, multi-platform monitoring, sentiment analysis, position tracking, and more for AI search optimization.',
   keywords: ['AI brand analytics features', 'real-time monitoring', 'sentiment analysis', 'position tracking', 'AI search optimization'],
 }
 
@@ -132,7 +132,7 @@ export default function FeaturesPage() {
             <p className="text-xl text-primary-700 leading-relaxed">
               Everything you need to track, analyze, and optimize your brand's performance 
               across AI search platforms. From real-time monitoring to advanced analytics, 
-              Bisibility provides comprehensive tools for AI brand visibility.
+              Bisibility AI provides comprehensive tools for AI brand visibility.
             </p>
           </div>
         </div>
@@ -226,7 +226,7 @@ export default function FeaturesPage() {
               Seamless Integrations
             </h2>
             <p className="text-xl text-primary-700 max-w-3xl mx-auto">
-              Connect Bisibility with your existing tools and workflows
+              Connect Bisibility AI with your existing tools and workflows
             </p>
           </div>
 
@@ -248,7 +248,7 @@ export default function FeaturesPage() {
             Ready to Experience These Features?
           </h2>
           <p className="text-xl text-primary-200 mb-8 max-w-3xl mx-auto">
-            Start your free trial today and see how Bisibility can transform your AI brand monitoring.
+            Start your free trial today and see how Bisibility AI can transform your AI brand monitoring.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 

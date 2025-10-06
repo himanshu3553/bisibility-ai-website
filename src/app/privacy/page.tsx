@@ -3,8 +3,8 @@ import { Shield, Eye, Lock, Database } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy - Bisibility AI Brand Analytics',
-  description: 'Learn how Bisibility protects your privacy and handles your data. Our comprehensive privacy policy covers data collection, usage, and protection.',
-  keywords: ['privacy policy', 'data protection', 'Bisibility privacy', 'AI analytics privacy'],
+  description: 'Learn how Bisibility AI protects your privacy and handles your data. Our comprehensive privacy policy covers data collection, usage, and protection.',
+  keywords: ['privacy policy', 'data protection', 'Bisibility AI privacy', 'AI analytics privacy'],
 }
 
 export default function PrivacyPolicyPage() {
@@ -66,7 +66,7 @@ export default function PrivacyPolicyPage() {
             </h1>
             <p className="text-xl text-primary-700 leading-relaxed">
               Your privacy is important to us. This policy explains how we collect, use, 
-              and protect your information when you use Bisibility's AI brand analytics platform.
+              and protect your information when you use Bisibility AI's AI brand analytics platform.
             </p>
             <p className="text-sm text-primary-600 mt-4">
               Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
@@ -83,7 +83,7 @@ export default function PrivacyPolicyPage() {
             <div className="mb-16">
               <h2 className="text-2xl font-bold text-primary-900 mb-6">Introduction</h2>
               <p className="text-primary-700 leading-relaxed mb-4">
-                Bisibility ("we," "our," or "us") is committed to protecting your privacy and personal information. 
+                Bisibility AI ("we," "our," or "us") is committed to protecting your privacy and personal information. 
                 This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you 
                 use our AI brand visibility analytics platform.
               </p>
@@ -185,7 +185,7 @@ export default function PrivacyPolicyPage() {
                 </p>
                 <div className="bg-primary-50 rounded-lg p-6">
                   <p className="text-primary-700 mb-2">
-                    <strong>Email:</strong> privacy@bisibility.com
+                    <strong>Email:</strong> privacy@bisibility.ai
                   </p>
                   <p className="text-primary-700">
                     <strong>Address:</strong> Bisibility AI Pvt. Ltd., Gurugram, India

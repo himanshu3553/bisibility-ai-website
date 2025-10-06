@@ -3,8 +3,8 @@ import { Mail, MapPin } from 'lucide-react'
 import ContactForm from '@/components/ContactForm'
 
 export const metadata: Metadata = {
-  title: 'Contact Bisibility - Get Started with AI Brand Analytics',
-  description: 'Contact Bisibility to start your free trial or learn more about our AI brand visibility analytics platform. Get in touch with our team today.',
+  title: 'Contact Bisibility AI - Get Started with AI Brand Analytics',
+  description: 'Contact Bisibility AI to start your free trial or learn more about our AI brand visibility analytics platform. Get in touch with our team today.',
   keywords: ['contact bisibility', 'AI brand analytics contact', 'get started', 'free trial', 'sales inquiry'],
 }
 
@@ -14,7 +14,7 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: 'Email',
-      value: 'hello@bisibility.com',
+      value: 'hello@bisibility.ai',
       description: 'Send us an email anytime'
     },
     {
@@ -36,7 +36,7 @@ export default function ContactPage() {
             </h1>
             <p className="text-xl text-primary-700 leading-relaxed">
               Ready to start tracking your brand's AI visibility? Contact us today to begin your free trial 
-              or learn more about how Bisibility can help your business succeed in the AI era.
+              or learn more about how Bisibility AI can help your business succeed in the AI era.
             </p>
           </div>
         </div>

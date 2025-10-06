@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Pricing - Bisibility AI Brand Analytics Plans',
-  description: 'Choose the perfect Bisibility plan for your business. Transparent pricing with free trials. Starter, Professional, and Enterprise plans available.',
+  description: 'Choose the perfect Bisibility AI plan for your business. Transparent pricing with free trials. Starter, Professional, and Enterprise plans available.',
   keywords: ['bisibility pricing', 'AI brand analytics pricing', 'AI search monitoring plans', 'brand visibility pricing'],
 }
 
@@ -287,7 +287,7 @@ export default function PricingPage() {
             Ready to Get Started?
           </h2>
           <p className="text-xl text-primary-200 mb-8 max-w-3xl mx-auto">
-            Join hundreds of companies already using Bisibility to optimize their AI search presence.
+            Join hundreds of companies already using Bisibility AI to optimize their AI search presence.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
