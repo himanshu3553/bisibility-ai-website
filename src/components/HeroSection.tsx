@@ -1,7 +1,28 @@
+'use client'
+
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { ArrowRight, BarChart3, TrendingUp, Target } from 'lucide-react'
 
 export default function HeroSection() {
+  const platforms = ['ChatGPT', 'Perplexity', 'Claude', 'Gemini']
+  const [currentPlatformIndex, setCurrentPlatformIndex] = useState(0)
+  const [isAnimating, setIsAnimating] = useState(false)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIsAnimating(true)
+      setTimeout(() => {
+        setCurrentPlatformIndex((prevIndex) => (prevIndex + 1) % platforms.length)
+        setTimeout(() => {
+          setIsAnimating(false)
+        }, 50) // Small delay to ensure smooth transition
+      }, 300) // Half of the transition duration
+    }, 2000)
+
+    return () => clearInterval(interval)
+  }, [])
+
   return (
     <section className="bg-gradient-to-br from-primary-50 to-white py-20 lg:py-32">
       <div className="container-max section-padding">
@@ -9,9 +30,18 @@ export default function HeroSection() {
           {/* Left Column - Content */}
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-4xl lg:text-6xl font-bold text-primary-900 leading-tight">
-                Track Your Brand's{' '}
-                <span className="gradient-text">AI Visibility</span>
+              <h1 className="text-4xl lg:text-6xl font-bold text-primary-900">
+                <div className="leading-none mb-2">Track Your Brand's</div>
+                <div className="leading-none mb-2">Visibility in</div>
+                <div className="leading-none">
+                  <span 
+                    className={`inline-block transition-all duration-500 ease-in-out text-secondary-600 ${
+                      isAnimating ? 'opacity-0 transform translate-y-4 scale-95' : 'opacity-100 transform translate-y-0 scale-100'
+                    }`}
+                  >
+                    {platforms[currentPlatformIndex]}
+                  </span>
+                </div>
               </h1>
               <p className="text-xl text-primary-700 leading-relaxed">
                 Monitor and optimize your brand performance across AI search platforms 
