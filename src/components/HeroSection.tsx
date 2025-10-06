@@ -5,8 +5,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowRight, BarChart3, TrendingUp, Target } from 'lucide-react'
 
+const platforms = ['ChatGPT', 'Perplexity', 'Claude', 'Gemini']
+
 export default function HeroSection() {
-  const platforms = ['ChatGPT', 'Perplexity', 'Claude', 'Gemini']
   const [currentPlatformIndex, setCurrentPlatformIndex] = useState(0)
   const [isAnimating, setIsAnimating] = useState(false)
 
@@ -36,45 +37,53 @@ export default function HeroSection() {
                 <div className="leading-none mb-2">Visibility in</div>
                 <div className="leading-none">
                   <span 
-                    className={`inline-flex items-center transition-all duration-500 ease-in-out text-5xl lg:text-7xl font-extrabold text-primary-900 ${
+                    className={`inline-flex items-center transition-all duration-500 ease-in-out text-5xl lg:text-7xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent ${
                       isAnimating ? 'opacity-0 transform translate-y-4 scale-95' : 'opacity-100 transform translate-y-0 scale-100'
                     }`}
                   >
                     {platforms[currentPlatformIndex] === 'ChatGPT' && (
-                      <Image
-                        src="/ChatGPT.png"
-                        alt="ChatGPT Logo"
-                        width={48}
-                        height={48}
-                        className="mr-4"
-                      />
+                      <div className="mr-4 w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                        <Image
+                          src="/ChatGPT.png"
+                          alt="ChatGPT Logo"
+                          width={32}
+                          height={32}
+                          className="brightness-0 invert"
+                        />
+                      </div>
                     )}
                     {platforms[currentPlatformIndex] === 'Perplexity' && (
-                      <Image
-                        src="/perplexity.webp"
-                        alt="Perplexity Logo"
-                        width={48}
-                        height={48}
-                        className="mr-4"
-                      />
+                      <div className="mr-4 w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                        <Image
+                          src="/perplexity.webp"
+                          alt="Perplexity Logo"
+                          width={32}
+                          height={32}
+                          className="brightness-0 invert"
+                        />
+                      </div>
                     )}
                     {platforms[currentPlatformIndex] === 'Claude' && (
-                      <Image
-                        src="/claude.png"
-                        alt="Claude Logo"
-                        width={48}
-                        height={48}
-                        className="mr-4"
-                      />
+                      <div className="mr-4 w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                        <Image
+                          src="/claude.png"
+                          alt="Claude Logo"
+                          width={32}
+                          height={32}
+                          className="brightness-0 invert"
+                        />
+                      </div>
                     )}
                     {platforms[currentPlatformIndex] === 'Gemini' && (
-                      <Image
-                        src="/gemini.png"
-                        alt="Gemini Logo"
-                        width={48}
-                        height={48}
-                        className="mr-4"
-                      />
+                      <div className="mr-4 w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                        <Image
+                          src="/gemini.png"
+                          alt="Gemini Logo"
+                          width={32}
+                          height={32}
+                          className="brightness-0 invert"
+                        />
+                      </div>
                     )}
                     {platforms[currentPlatformIndex]}
                   </span>
