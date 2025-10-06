@@ -179,7 +179,7 @@ export default function GDPRPage() {
                 <div className="bg-primary-50 rounded-xl p-6">
                   <h3 className="text-lg font-semibold text-primary-900 mb-4">Data Controller</h3>
                   <p className="text-primary-700 leading-relaxed">
-                    Bisibility Pvt. Ltd. is the data controller responsible for determining the purposes and means of processing 
+                    Bisibility AI Pvt. Ltd. is the data controller responsible for determining the purposes and means of processing 
                     your personal data. Our registered address is Gurugram, India.
                   </p>
                 </div>

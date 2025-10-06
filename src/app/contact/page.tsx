@@ -20,7 +20,7 @@ export default function ContactPage() {
     {
       icon: MapPin,
       title: 'Office',
-      value: 'Bisibility Pvt. Ltd., Gurugram, India',
+      value: 'Bisibility AI Pvt. Ltd., Gurugram, India',
       description: 'Visit our headquarters'
     }
   ]

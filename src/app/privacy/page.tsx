@@ -188,7 +188,7 @@ export default function PrivacyPolicyPage() {
                     <strong>Email:</strong> privacy@bisibility.com
                   </p>
                   <p className="text-primary-700">
-                    <strong>Address:</strong> Bisibility Pvt. Ltd., Gurugram, India
+                    <strong>Address:</strong> Bisibility AI Pvt. Ltd., Gurugram, India
                   </p>
                 </div>
               </div>

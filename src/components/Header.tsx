@@ -1,11 +1,22 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { Menu, X, BarChart3 } from 'lucide-react'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY
+      setIsScrolled(scrollTop > 50)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   const navigation = [
     { name: 'Home', href: '/' },
@@ -16,7 +27,11 @@ export default function Header() {
   ]
 
   return (
-    <header className="bg-white shadow-sm border-b border-primary-100">
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      isScrolled 
+        ? 'bg-white shadow-sm border-b border-primary-100' 
+        : 'bg-transparent'
+    }`}>
       <nav className="container-max section-padding">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -59,7 +74,9 @@ export default function Header() {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-primary-100">
+            <div className={`px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t border-primary-100 transition-all duration-300 ${
+              isScrolled ? 'bg-white' : 'bg-white/95 backdrop-blur-sm'
+            }`}>
               {navigation.map((item) => (
                 <Link
                   key={item.name}

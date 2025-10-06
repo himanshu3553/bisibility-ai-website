@@ -79,7 +79,7 @@ export default function TermsOfServicePage() {
             <div className="mb-16">
               <h2 className="text-2xl font-bold text-primary-900 mb-6">Agreement to Terms</h2>
               <p className="text-primary-700 leading-relaxed mb-4">
-                These Terms of Service ("Terms") constitute a legally binding agreement between you and Bisibility Inc. 
+                These Terms of Service ("Terms") constitute a legally binding agreement between you and Bisibility AI Pvt. Ltd. 
                 ("Company," "we," "our," or "us") regarding your use of our AI brand visibility analytics platform 
                 and related services (collectively, the "Service").
               </p>
@@ -161,7 +161,7 @@ export default function TermsOfServicePage() {
               <div>
                 <h3 className="text-xl font-semibold text-primary-900 mb-4">Intellectual Property</h3>
                 <p className="text-primary-700 leading-relaxed mb-4">
-                  The Service and its original content, features, and functionality are owned by Bisibility Inc. 
+                  The Service and its original content, features, and functionality are owned by Bisibility AI Pvt. Ltd. 
                   and are protected by international copyright, trademark, patent, trade secret, and other intellectual 
                   property laws. You may not:
                 </p>
@@ -193,7 +193,7 @@ export default function TermsOfServicePage() {
               <div>
                 <h3 className="text-xl font-semibold text-primary-900 mb-4">Limitation of Liability</h3>
                 <p className="text-primary-700 leading-relaxed">
-                  In no event shall Bisibility Inc., its directors, employees, partners, agents, suppliers, or affiliates 
+                  In no event shall Bisibility AI Pvt. Ltd., its directors, employees, partners, agents, suppliers, or affiliates 
                   be liable for any indirect, incidental, special, consequential, or punitive damages, including without 
                   limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your use 
                   of the Service.
@@ -237,7 +237,7 @@ export default function TermsOfServicePage() {
                     <strong>Email:</strong> legal@bisibility.com
                   </p>
                   <p className="text-primary-700">
-                    <strong>Address:</strong> Bisibility Pvt. Ltd., Gurugram, India
+                    <strong>Address:</strong> Bisibility AI Pvt. Ltd., Gurugram, India
                   </p>
                 </div>
               </div>

@@ -44,7 +44,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-2 text-primary-300">
                 <MapPin className="h-4 w-4" />
-                <span>Bisibility Pvt. Ltd., Gurugram, India</span>
+                <span>Bisibility AI Pvt. Ltd., Gurugram, India</span>
               </div>
             </div>
           </div>
