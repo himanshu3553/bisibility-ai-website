@@ -67,12 +67,12 @@ export default function FeaturesSection() {
       description: 'Monitor your brand across different regions and languages in AI search platforms.',
       benefits: ['Multi-language support', 'Regional insights', 'Global reach']
     },
-    {
-      icon: Clock,
-      title: 'Historical Tracking',
-      description: 'Access historical data to understand long-term trends and measure improvement over time.',
-      benefits: ['Long-term trends', 'Historical analysis', 'Progress measurement']
-    }
+    // {
+    //   icon: Clock,
+    //   title: 'Historical Tracking',
+    //   description: 'Access historical data to understand long-term trends and measure improvement over time.',
+    //   benefits: ['Long-term trends', 'Historical analysis', 'Progress measurement']
+    // }
   ]
 
   return (

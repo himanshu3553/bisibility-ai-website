@@ -53,7 +53,7 @@ export default function AISearchAnalyticsPage() {
             <p className="text-xl text-primary-700 leading-relaxed">
               Monitor and optimize your brand performance across AI search platforms. 
               Get comprehensive insights into how your brand appears in ChatGPT, Perplexity, 
-              Claude, and Gemini responses.
+              Claude and Gemini responses.
             </p>
           </div>
         </div>

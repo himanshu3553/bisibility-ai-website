@@ -28,7 +28,7 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-50 to-white py-20">
+      <section className="bg-gradient-to-br from-primary-50 to-white pt-32 pb-20">
         <div className="container-max section-padding">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-6xl font-bold text-primary-900 mb-6">

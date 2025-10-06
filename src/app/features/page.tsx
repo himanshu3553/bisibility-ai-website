@@ -123,7 +123,7 @@ export default function FeaturesPage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-50 to-white py-20">
+      <section className="bg-gradient-to-br from-primary-50 to-white pt-32 pb-20">
         <div className="container-max section-padding">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-6xl font-bold text-primary-900 mb-6">
@@ -132,7 +132,7 @@ export default function FeaturesPage() {
             <p className="text-xl text-primary-700 leading-relaxed">
               Everything you need to track, analyze, and optimize your brand's performance 
               across AI search platforms. From real-time monitoring to advanced analytics, 
-              Bisibility AI provides comprehensive tools for AI brand visibility.
+              Bisibility AI provides comprehensive tools for AI brand visibility and monitoring.
             </p>
           </div>
         </div>
@@ -141,14 +141,14 @@ export default function FeaturesPage() {
       {/* Main Features */}
       <section className="py-20 bg-white">
         <div className="container-max section-padding">
-          <div className="text-center mb-16">
+          {/* <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-primary-900 mb-4">
               Core Features
             </h2>
             <p className="text-xl text-primary-700 max-w-3xl mx-auto">
               Our comprehensive suite of tools designed specifically for AI brand monitoring
             </p>
-          </div>
+          </div> */}
 
           <div className="space-y-16">
             {mainFeatures.map((feature, index) => (
@@ -219,7 +219,7 @@ export default function FeaturesPage() {
       </section>
 
       {/* Integration Section */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="container-max section-padding">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-primary-900 mb-4">
@@ -239,7 +239,7 @@ export default function FeaturesPage() {
             <div className="text-2xl font-bold text-primary-400">Google Analytics</div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 bg-primary-900 text-white">

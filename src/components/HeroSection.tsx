@@ -25,7 +25,7 @@ export default function HeroSection() {
   }, [])
 
   return (
-    <section className="bg-gradient-to-br from-primary-50 to-white py-20 lg:py-32">
+    <section className="bg-gradient-to-br from-primary-50 to-white pt-32 pb-20 lg:pt-40 lg:pb-32">
       <div className="container-max section-padding">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Content */}
@@ -82,7 +82,7 @@ export default function HeroSection() {
               </h1>
               <p className="text-xl text-primary-700 leading-relaxed">
                 Monitor and optimize your brand performance across AI search platforms 
-                like ChatGPT, Perplexity, Claude, and Gemini. Get actionable insights 
+                like ChatGPT, Perplexity, Claude and Gemini. Get actionable insights 
                 on visibility, position, and sentiment.
               </p>
             </div>

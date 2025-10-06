@@ -4,19 +4,19 @@ export default function StatsSection() {
   const stats = [
     {
       icon: BarChart3,
-      value: '10M+',
+      value: '1M+',
       label: 'Brand Mentions Tracked',
       description: 'Across all AI platforms'
     },
     {
       icon: Users,
-      value: '500+',
+      value: '100+',
       label: 'Active Brands',
       description: 'Trust us with their visibility'
     },
     {
       icon: TrendingUp,
-      value: '95%',
+      value: '99%',
       label: 'Accuracy Rate',
       description: 'In sentiment analysis'
     },
