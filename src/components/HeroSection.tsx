@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { ArrowRight, BarChart3, TrendingUp, Target } from 'lucide-react'
 
 export default function HeroSection() {
@@ -35,10 +36,46 @@ export default function HeroSection() {
                 <div className="leading-none mb-2">Visibility in</div>
                 <div className="leading-none">
                   <span 
-                    className={`inline-block transition-all duration-500 ease-in-out text-secondary-600 ${
+                    className={`inline-flex items-center transition-all duration-500 ease-in-out text-5xl lg:text-7xl font-extrabold text-primary-900 ${
                       isAnimating ? 'opacity-0 transform translate-y-4 scale-95' : 'opacity-100 transform translate-y-0 scale-100'
                     }`}
                   >
+                    {platforms[currentPlatformIndex] === 'ChatGPT' && (
+                      <Image
+                        src="/ChatGPT.png"
+                        alt="ChatGPT Logo"
+                        width={48}
+                        height={48}
+                        className="mr-4"
+                      />
+                    )}
+                    {platforms[currentPlatformIndex] === 'Perplexity' && (
+                      <Image
+                        src="/perplexity.webp"
+                        alt="Perplexity Logo"
+                        width={48}
+                        height={48}
+                        className="mr-4"
+                      />
+                    )}
+                    {platforms[currentPlatformIndex] === 'Claude' && (
+                      <Image
+                        src="/claude.png"
+                        alt="Claude Logo"
+                        width={48}
+                        height={48}
+                        className="mr-4"
+                      />
+                    )}
+                    {platforms[currentPlatformIndex] === 'Gemini' && (
+                      <Image
+                        src="/gemini.png"
+                        alt="Gemini Logo"
+                        width={48}
+                        height={48}
+                        className="mr-4"
+                      />
+                    )}
                     {platforms[currentPlatformIndex]}
                   </span>
                 </div>
