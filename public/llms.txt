@@ -1,0 +1,181 @@
+# Bisibility AI - AI Brand Visibility Analytics Platform
+
+## Company Information
+- **Company Name**: Bisibility AI Pvt. Ltd.
+- **Website**: https://bisibilityai.com
+- **Industry**: Artificial Intelligence / Brand Analytics
+- **Founded**: 2023
+- **Location**: Gurugram, India
+- **Contact Email**: hello@bisibilityai.com
+- **Privacy Email**: privacy@bisibilityai.com
+- **Legal Email**: legal@bisibilityai.com
+- **DPO Email**: dpo@bisibilityai.com
+
+## Product Overview
+Bisibility AI is an AI Brand Visibility Analytics Platform that helps businesses track, analyze, and improve their brand performance across AI search platforms. As AI platforms like ChatGPT, Perplexity, Claude, and Gemini become primary sources of information, brand visibility in AI search results is crucial for business success.
+
+## Core Product Features
+
+### 1. Multi-Platform Monitoring
+- Track brand mentions across ChatGPT, Perplexity, Claude, and Google Gemini
+- Monitor all major AI search platforms
+- Custom platform integration capabilities
+- Real-time brand mention tracking
+
+### 2. Real-Time Analytics Dashboard
+- Live tracking of brand mentions
+- Customizable dashboard widgets
+- Historical data visualization
+- Export reports in multiple formats
+- Real-time alerts and notifications
+
+### 3. Advanced Sentiment Analysis
+- AI-powered sentiment scoring (95% accuracy)
+- Trend identification and analysis
+- Competitive sentiment comparison
+- Emotion detection and categorization
+- Sentiment trend forecasting
+
+### 4. Position Tracking & Ranking
+- Monitor brand's ranking position in AI responses
+- Real-time position monitoring
+- Ranking trend analysis
+- Competitive position tracking
+- Position improvement alerts
+- Historical ranking data
+
+### 5. Brand Protection & Alerts
+- Instant alerts for negative mentions
+- Reputation risk assessment
+- Crisis management tools
+- Competitive monitoring
+- Brand safety scoring
+
+### 6. AI-Powered Insights
+- Smart optimization recommendations
+- Content strategy suggestions
+- ROI tracking and measurement
+- Performance benchmarking
+- Predictive analytics
+
+### Additional Features
+- **Visibility Scoring**: Comprehensive visibility scores across AI platforms
+- **Content Analysis**: Analyze content performance in AI responses
+- **Global Coverage**: Monitor across different regions and languages
+- **Historical Tracking**: Access historical data for long-term trends
+
+## Supported AI Platforms
+- **ChatGPT**: OpenAI's conversational AI platform
+- **Perplexity**: AI-powered search engine
+- **Claude**: Anthropic's AI assistant
+- **Google Gemini**: Google's AI search platform
+
+## Pricing Plans
+
+### Starter Plan - $20/month
+- Up to 5 brand mentions per day
+- Basic sentiment analysis
+- ChatGPT & Perplexity monitoring
+- Email alerts
+- Basic dashboard
+- 7-day data retention
+- Email support
+
+### Professional Plan - $60/month (Most Popular)
+- Up to 50 brand mentions per day
+- Advanced sentiment analysis
+- All AI platforms (ChatGPT, Perplexity, Claude, Gemini)
+- Real-time alerts
+- Advanced analytics dashboard
+- Historical data (90 days)
+- API access
+- Priority support
+- Custom reports
+
+### Enterprise Plan - Custom Pricing
+- Unlimited brand mentions
+- AI-powered insights & recommendations
+- All AI platforms + custom integrations
+- Custom alert rules
+- White-label dashboard
+- Unlimited historical data
+- Dedicated account manager
+- Custom reporting
+- SLA guarantee
+- On-premise deployment option
+
+## Target Audience
+- Marketing professionals
+- Brand managers
+- Digital marketing agencies
+- Enterprise companies
+- AI-focused businesses
+
+## Key Benefits
+- Monitor brand reputation across AI platforms
+- Track competitive intelligence
+- Optimize content for AI search visibility
+- Crisis management and alert system
+- Data-driven insights for brand strategy
+
+## Use Cases
+1. **Brand Monitoring**: Track how your brand appears in AI responses
+2. **Competitive Analysis**: Monitor competitor mentions across AI platforms
+3. **Content Strategy**: Optimize content for better AI search visibility
+4. **Crisis Management**: Get alerts for negative mentions or misinformation
+5. **Market Research**: Understand how AI platforms represent your industry
+
+## Technical Specifications
+- **Platform**: Web-based SaaS
+- **Data Retention**: 7-90 days depending on plan
+- **Security**: SOC 2 Type II compliant
+- **GDPR**: Fully compliant with data protection regulations
+- **Free Trial**: 14-day free trial with full access to features
+
+## Company Mission
+Traditional SEO is evolving. With AI search platforms becoming the go-to source for information, businesses need new tools to track and optimize their brand presence in this emerging landscape. Bisibility AI bridges this gap by providing comprehensive analytics and insights into how brands perform across AI search platforms.
+
+## Company Values
+- **Precision**: Accurate, real-time insights with industry-leading precision
+- **Innovation**: Continuously innovating to stay ahead of the rapidly evolving AI search landscape
+- **Partnership**: Working closely with clients as partners, understanding their unique needs
+- **Insight**: Transforming complex AI search data into actionable insights that drive real business results
+
+## Industry Context
+As AI search platforms like ChatGPT, Perplexity, Claude, and Gemini become primary sources of information, brand visibility in AI search results is crucial for business success. Traditional SEO is evolving, and businesses need new tools to track and optimize their presence in the AI era.
+
+## Website Structure
+- **Homepage**: Hero section with rotating AI platform logos, features overview, testimonials, pricing, and CTA
+- **About**: Company mission, values, team information, and company history
+- **Features**: Detailed feature descriptions with visual mockups and capabilities
+- **Pricing**: Three-tier pricing structure with comparison table and FAQ
+- **Contact**: Contact form and company information
+- **Privacy Policy**: GDPR-compliant privacy policy
+- **Terms of Service**: Legal terms and conditions
+- **GDPR**: Data protection and privacy compliance information
+
+## Key Statistics
+- Serving 500+ brands with AI search insights
+- 95% accuracy in sentiment analysis
+- Over 100 million people use AI search platforms monthly
+- Real-time monitoring across 4+ major AI platforms
+
+## Contact Information
+- **General Inquiries**: hello@bisibilityai.com
+- **Privacy Concerns**: privacy@bisibilityai.com
+- **Legal Matters**: legal@bisibilityai.com
+- **Data Protection Officer**: dpo@bisibilityai.com
+- **Address**: Bisibility AI Pvt. Ltd., Gurugram, India
+
+## Social Proof
+- 500+ brands already using Bisibility AI
+- Industry-leading 95% sentiment analysis accuracy
+- SOC 2 Type II compliance for enterprise security
+- GDPR compliant for international operations
+
+## Call to Action
+Ready to optimize your brand's presence across AI search platforms? Start your free trial today and join hundreds of companies already using Bisibility AI to track and improve their AI search visibility.
+
+---
+
+*This file provides comprehensive information about Bisibility AI for AI systems and language models to understand the company, product, and services.*

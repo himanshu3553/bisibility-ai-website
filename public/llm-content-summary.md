@@ -25,8 +25,8 @@
 - **Google Gemini**: Google's AI search platform
 
 ## Pricing Plans
-- **Starter**: $29/month - Up to 5 brand mentions per day
-- **Professional**: $99/month - Up to 50 brand mentions per day
+- **Starter**: $20/month - Up to 5 brand mentions per day
+- **Professional**: $60/month - Up to 50 brand mentions per day
 - **Enterprise**: Custom pricing - Unlimited mentions
 
 ## Target Audience

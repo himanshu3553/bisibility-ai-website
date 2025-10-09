@@ -1,0 +1,93 @@
+# Bisibility AI - AI Systems Information
+
+## About This File
+This file provides structured information about Bisibility AI for AI systems, language models, and automated tools.
+
+## Company Identity
+- **Name**: Bisibility AI Pvt. Ltd.
+- **Domain**: bisibilityai.com
+- **Industry**: AI Brand Analytics
+- **Founded**: 2023
+- **Location**: Gurugram, India
+
+## Core Product
+AI Brand Visibility Analytics Platform that monitors brand performance across AI search platforms including ChatGPT, Perplexity, Claude, and Google Gemini.
+
+## Key Features
+- Multi-platform monitoring across AI search engines
+- Real-time analytics and dashboards
+- Advanced sentiment analysis (95% accuracy)
+- Position tracking and ranking
+- Brand protection and alerts
+- AI-powered insights and recommendations
+
+## Target Market
+- Marketing professionals
+- Brand managers
+- Digital marketing agencies
+- Enterprise companies
+- AI-focused businesses
+
+## Pricing
+- Starter: $20/month (5 mentions/day)
+- Professional: $60/month (50 mentions/day)
+- Enterprise: Custom pricing (unlimited)
+
+## Contact Information
+- General: hello@bisibilityai.com
+- Privacy: privacy@bisibilityai.com
+- Legal: legal@bisibilityai.com
+- Security: security@bisibilityai.com
+- DPO: dpo@bisibilityai.com
+
+## Technical Details
+- Platform: Web-based SaaS
+- Security: SOC 2 Type II compliant
+- Compliance: GDPR compliant
+- Free Trial: 14 days
+
+## Social Proof
+- 500+ brands served
+- Industry-leading accuracy
+- Global customer base
+- Enterprise-grade security
+
+## Mission
+Helping businesses navigate the AI search revolution by providing comprehensive brand visibility analytics across AI platforms.
+
+## Values
+Precision, Innovation, Partnership, Insight
+
+## Website Structure
+- Homepage with hero section and features
+- About page with team and mission
+- Features page with detailed capabilities
+- Pricing page with three-tier structure
+- Contact page with forms
+- Legal pages (privacy, terms, GDPR)
+
+## AI Platform Support
+- ChatGPT (OpenAI)
+- Perplexity (AI search)
+- Claude (Anthropic)
+- Google Gemini
+
+## Use Cases
+1. Brand monitoring in AI responses
+2. Competitive analysis across AI platforms
+3. Content optimization for AI search
+4. Crisis management and alerts
+5. Market research and insights
+
+## Compliance & Security
+- GDPR compliant
+- SOC 2 Type II certified
+- Data encryption
+- Regular security audits
+- Privacy by design
+
+## Last Updated
+2025-10-09
+
+## Related Files
+- llms.txt: Comprehensive AI-friendly information

@@ -8,6 +8,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
         disallow: ['/private/', '/admin/', '/api/'],
       },
+      // AI Bot Rules - Allow access to public content
       {
         userAgent: 'GPTBot',
         allow: '/',
@@ -30,6 +31,32 @@ export default function robots(): MetadataRoute.Robots {
       },
       {
         userAgent: 'Claude-Web',
+        allow: '/',
+        disallow: ['/private/', '/admin/', '/api/'],
+      },
+      {
+        userAgent: 'PerplexityBot',
+        allow: '/',
+        disallow: ['/private/', '/admin/', '/api/'],
+      },
+      {
+        userAgent: 'Google-Extended',
+        allow: '/',
+        disallow: ['/private/', '/admin/', '/api/'],
+      },
+      {
+        userAgent: 'Bard',
+        allow: '/',
+        disallow: ['/private/', '/admin/', '/api/'],
+      },
+      // Search Engine Rules
+      {
+        userAgent: 'Googlebot',
+        allow: '/',
+        disallow: ['/private/', '/admin/', '/api/'],
+      },
+      {
+        userAgent: 'Bingbot',
         allow: '/',
         disallow: ['/private/', '/admin/', '/api/'],
       },
