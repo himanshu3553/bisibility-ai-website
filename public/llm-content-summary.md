@@ -5,7 +5,7 @@
 - **Industry**: Artificial Intelligence / Brand Analytics
 - **Founded**: 2023
 - **Location**: Gurugram, India
-- **Website**: https://bisibility.ai
+- **Website**: https://bisibilityai.com
 
 ## Core Product
 **Bisibility AI** is an AI Brand Visibility Analytics Platform that helps businesses track, analyze, and improve their brand performance across AI search platforms.
@@ -44,11 +44,11 @@
 - Data-driven insights for brand strategy
 
 ## Contact Information
-- **Email**: hello@bisibility.ai
+- **Email**: hello@bisibilityai.com
 - **Address**: Bisibility AI Pvt. Ltd., Gurugram, India
-- **Privacy**: privacy@bisibility.ai
-- **Legal**: legal@bisibility.ai
-- **DPO**: dpo@bisibility.ai
+- **Privacy**: privacy@bisibilityai.com
+- **Legal**: legal@bisibilityai.com
+- **DPO**: dpo@bisibilityai.com
 
 ## Technical Specifications
 - **Platform**: Web-based SaaS

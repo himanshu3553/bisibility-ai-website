@@ -36,14 +36,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://bisibility.ai'),
+  metadataBase: new URL('https://bisibilityai.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://bisibility.ai',
+    url: 'https://bisibilityai.com',
     title: 'Bisibility AI - AI Brand Visibility Analytics',
     description: 'Track, analyze, and improve your brand performance on AI search platforms like ChatGPT, Perplexity, Claude, and Gemini.',
     siteName: 'Bisibility AI',

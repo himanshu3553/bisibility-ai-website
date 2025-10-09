@@ -14,7 +14,7 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: 'Email',
-      value: 'hello@bisibility.ai',
+      value: 'hello@bisibilityai.com',
       description: 'Send us an email anytime'
     },
     {

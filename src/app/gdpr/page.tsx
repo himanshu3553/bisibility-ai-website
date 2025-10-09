@@ -191,7 +191,7 @@ export default function GDPRPage() {
                   </p>
                   <div className="bg-white rounded-lg p-4">
                     <p className="text-primary-700">
-                      <strong>Email:</strong> dpo@bisibility.ai
+                      <strong>Email:</strong> dpo@bisibilityai.com
                     </p>
                   </div>
                 </div>
@@ -229,10 +229,10 @@ export default function GDPRPage() {
                     <h3 className="text-lg font-semibold text-primary-900 mb-3">Contact Methods</h3>
                     <div className="space-y-2">
                       <p className="text-primary-700">
-                        <strong>Email:</strong> privacy@bisibility.ai
+                        <strong>Email:</strong> privacy@bisibilityai.com
                       </p>
                       <p className="text-primary-700">
-                        <strong>DPO Email:</strong> dpo@bisibility.ai
+                        <strong>DPO Email:</strong> dpo@bisibilityai.com
                       </p>
                     </div>
                   </div>

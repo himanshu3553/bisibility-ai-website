@@ -34,7 +34,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/private/', '/admin/', '/api/'],
       },
     ],
-    sitemap: 'https://bisibility.ai/sitemap.xml',
-    host: 'https://bisibility.ai',
+    sitemap: 'https://bisibilityai.com/sitemap.xml',
+    host: 'https://bisibilityai.com',
   }
 }

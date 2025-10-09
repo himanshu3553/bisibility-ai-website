@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-        const baseUrl = 'https://bisibility.ai'
+        const baseUrl = 'https://bisibilityai.com'
   
   return [
     {

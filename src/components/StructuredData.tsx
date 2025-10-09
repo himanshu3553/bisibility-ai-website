@@ -7,12 +7,12 @@ export default function StructuredData() {
     "name": "Bisibility AI Pvt. Ltd.",
     "alternateName": "Bisibility AI",
     "description": "AI Brand Visibility Analytics Platform - Track, analyze, and improve brand performance on AI search platforms like ChatGPT, Perplexity, Claude, and Gemini.",
-    "url": "https://bisibility.ai",
-    "logo": "https://bisibility.ai/favicon.svg",
+    "url": "https://bisibilityai.com",
+    "logo": "https://bisibilityai.com/favicon.svg",
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "customer service",
-      "email": "hello@bisibility.ai"
+      "email": "hello@bisibilityai.com"
     },
     "address": {
       "@type": "PostalAddress",
@@ -116,7 +116,7 @@ export default function StructuredData() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://bisibility.ai"
+        "item": "https://bisibilityai.com"
       }
     ]
   }
@@ -125,11 +125,11 @@ export default function StructuredData() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Bisibility AI",
-    "url": "https://bisibility.ai",
+    "url": "https://bisibilityai.com",
     "description": "AI Brand Visibility Analytics Platform",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://bisibility.ai/search?q={search_term_string}",
+      "target": "https://bisibilityai.com/search?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   }

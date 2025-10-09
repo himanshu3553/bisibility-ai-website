@@ -39,7 +39,7 @@ export default function Footer() {
             <div className="space-y-2">
               <div className="flex items-center space-x-2 text-primary-300">
                 <Mail className="h-4 w-4 text-primary-400" />
-                <span>hello@bisibility.ai</span>
+                <span>hello@bisibilityai.com</span>
               </div>
               <div className="flex items-center space-x-2 text-primary-300">
                 <MapPin className="h-4 w-4 text-primary-400" />

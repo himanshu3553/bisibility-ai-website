@@ -129,7 +129,7 @@ This project is licensed under the MIT License.
 
 ## Support
 
-For support, email hello@bisibility.ai or visit our contact page.
+For support, email hello@bisibilityai.com or visit our contact page.
 
 ## Roadmap
 
