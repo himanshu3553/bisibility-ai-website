@@ -1,8 +1,17 @@
 import type { MetadataRoute } from 'next'
+import { getAllPosts } from '@/lib/blog-data'
 
 export default function sitemap(): MetadataRoute.Sitemap {
         const baseUrl = 'https://bisibilityai.com'
   
+  // Generate blog post URLs
+  const blogUrls = getAllPosts().map((post) => ({
+    url: `${baseUrl}/blog/${post.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.7,
+  }))
+
   return [
     {
       url: baseUrl,
@@ -33,6 +42,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/blog`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
     },
     {
       url: `${baseUrl}/privacy`,
@@ -83,5 +98,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.8,
     },
+    // Blog posts
+    ...blogUrls,
   ]
 }
