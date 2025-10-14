@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { ArrowRight, BarChart3, TrendingUp, Target } from 'lucide-react'
+import { ArrowRight, BarChart3 } from 'lucide-react'
 
 const platforms = ['ChatGPT', 'Perplexity', 'Claude', 'Gemini']
 
@@ -123,78 +123,17 @@ export default function HeroSection() {
             </div> */}
           </div>
 
-          {/* Right Column - Visual */}
+          {/* Right Column - Image */}
           <div className="relative">
-            <div className="bg-white rounded-2xl shadow-2xl p-8 border border-primary-100">
-              {/* Dashboard Mockup */}
-              <div className="space-y-6">
-                <div className="flex items-center justify-between">
-                  <h3 className="text-lg font-semibold text-primary-900">Brand Performance Dashboard</h3>
-                  <div className="flex space-x-2">
-                    <div className="w-3 h-3 bg-red-400 rounded-full"></div>
-                    <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
-                    <div className="w-3 h-3 bg-green-400 rounded-full"></div>
-                  </div>
-                </div>
-
-                {/* Metrics Cards */}
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="bg-primary-50 p-4 rounded-lg">
-                    <div className="text-2xl font-bold text-primary-900">87%</div>
-                    <div className="text-sm text-primary-600">Visibility Score</div>
-                    <div className="text-xs text-green-600 mt-1">↗ +12% this month</div>
-                  </div>
-                  <div className="bg-primary-50 p-4 rounded-lg">
-                    <div className="text-2xl font-bold text-primary-900">#3</div>
-                    <div className="text-sm text-primary-600">Avg Position</div>
-                    <div className="text-xs text-green-600 mt-1">↗ +2 positions</div>
-                  </div>
-                </div>
-
-                {/* Chart Placeholder */}
-                <div className="bg-gradient-to-r from-primary-100 to-primary-200 h-32 rounded-lg flex items-center justify-center">
-                  <div className="text-primary-600 font-medium">Performance Trends</div>
-                </div>
-
-                {/* Platform Stats */}
-                <div className="space-y-3">
-                  <div className="flex items-center justify-between">
-                    <span className="text-sm text-primary-700">ChatGPT</span>
-                    <div className="flex items-center space-x-2">
-                      <div className="w-20 h-2 bg-primary-200 rounded-full">
-                        <div className="w-16 h-2 bg-primary-600 rounded-full"></div>
-                      </div>
-                      <span className="text-sm font-medium text-primary-900">80%</span>
-                    </div>
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <span className="text-sm text-primary-700">Perplexity</span>
-                    <div className="flex items-center space-x-2">
-                      <div className="w-20 h-2 bg-primary-200 rounded-full">
-                        <div className="w-14 h-2 bg-primary-600 rounded-full"></div>
-                      </div>
-                      <span className="text-sm font-medium text-primary-900">70%</span>
-                    </div>
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <span className="text-sm text-primary-700">Claude</span>
-                    <div className="flex items-center space-x-2">
-                      <div className="w-20 h-2 bg-primary-200 rounded-full">
-                        <div className="w-18 h-2 bg-primary-600 rounded-full"></div>
-                      </div>
-                      <span className="text-sm font-medium text-primary-900">90%</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Floating Elements */}
-            <div className="absolute -top-4 -right-4 bg-white rounded-full p-3 shadow-lg border border-primary-100">
-              <TrendingUp className="h-6 w-6 text-green-500" />
-            </div>
-            <div className="absolute -bottom-4 -left-4 bg-white rounded-full p-3 shadow-lg border border-primary-100">
-              <Target className="h-6 w-6 text-blue-500" />
+            <div className="relative w-full h-full">
+              <Image
+                src="/bisibility-ai.png"
+                alt="Bisibility AI Platform"
+                width={600}
+                height={400}
+                className="w-full h-auto rounded-2xl shadow-2xl"
+                priority
+              />
             </div>
           </div>
         </div>
