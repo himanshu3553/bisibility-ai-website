@@ -3,7 +3,7 @@ title: "Generative Engine Optimization (GEO): The Future of AI Visibility"
 description: "Learn how to optimize your content for AI-powered search engines like ChatGPT, Perplexity, and Claude to improve your brand visibility in the AI era."
 author: "Bisibility AI Team"
 publishedAt: "2025-10-10"
-updatedAt: "2024-01-15"
+updatedAt: "2025-10-10"
 category: "GEO"
 tags: ["GEO", "AI Search", "Content Optimization", "ChatGPT", "Perplexity", "Claude", "Gemini", "LLM Optimization"]
 featured: true
@@ -11,7 +11,6 @@ keywords: ["Generative Engine Optimization", "AI Search Optimization", "Content 
 geoKeywords: ["GEO", "AI Visibility", "AI Search Optimization", "ChatGPT SEO", "Perplexity SEO", "Claude SEO"]
 seoTitle: "Generative Engine Optimization (GEO): Complete Guide to AI Search Optimization"
 canonical: "/blog/what-is-generative-engine-optimization"
-
 ---
 
 ## Introduction: The New Era of Visibility

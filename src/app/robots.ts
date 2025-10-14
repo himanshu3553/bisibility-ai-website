@@ -64,6 +64,21 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
         disallow: ['/private/', '/admin/', '/api/'],
       },
+      {
+        userAgent: 'MetaBot',
+        allow: '/',
+        disallow: ['/private/', '/admin/', '/api/'],
+      },
+      {
+        userAgent: 'Applebot-Extended',
+        allow: '/',
+        disallow: ['/private/', '/admin/', '/api/'],
+      },
+      {
+        userAgent: 'cohere-ai',
+        allow: '/',
+        disallow: ['/private/', '/admin/', '/api/'],
+      },
       // Search Engine Rules
       {
         userAgent: 'Googlebot',
