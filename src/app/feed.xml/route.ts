@@ -2,7 +2,7 @@ import { getAllPosts } from '@/lib/blog'
 
 export async function GET() {
   const posts = getAllPosts()
-  const baseUrl = 'https://bisibility.com'
+  const baseUrl = 'https://bisibilityai.com'
 
   const rssItems = posts.map((post) => {
     return `

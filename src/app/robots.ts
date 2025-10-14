@@ -49,6 +49,21 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
         disallow: ['/private/', '/admin/', '/api/'],
       },
+      {
+        userAgent: 'ClaudeBot',
+        allow: '/',
+        disallow: ['/private/', '/admin/', '/api/'],
+      },
+      {
+        userAgent: 'YouBot',
+        allow: '/',
+        disallow: ['/private/', '/admin/', '/api/'],
+      },
+      {
+        userAgent: 'PiBot',
+        allow: '/',
+        disallow: ['/private/', '/admin/', '/api/'],
+      },
       // Search Engine Rules
       {
         userAgent: 'Googlebot',

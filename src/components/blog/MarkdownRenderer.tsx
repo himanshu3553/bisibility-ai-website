@@ -7,10 +7,19 @@ interface MarkdownRendererProps {
 }
 
 export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
-  // Use remark instead of marked
+  // Use remark with GitHub Flavored Markdown to handle single asterisks as lists
   const processor = remark()
-    .use(remarkGfm)
-    .use(remarkHtml, { sanitize: false })
+    .use(remarkGfm, {
+      // Ensure single asterisks are treated as list markers
+      singleTilde: false,
+      tablePipeAlign: false,
+      tableCellPadding: false,
+    })
+    .use(remarkHtml, { 
+      sanitize: false,
+      // Ensure proper list rendering
+      allowDangerousHtml: true
+    })
   
   const htmlContent = processor.processSync(content).toString()
 
@@ -29,7 +38,9 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
         [&_blockquote]:border-l-4 [&_blockquote]:border-gray-300 [&_blockquote]:bg-gray-50 [&_blockquote]:pl-6 [&_blockquote]:py-4 [&_blockquote]:my-8 [&_blockquote]:italic
         [&_img]:rounded-lg [&_img]:shadow-lg [&_img]:my-8
         [&_ul]:my-6 [&_ol]:my-6
-        [&_li]:my-2 [&_li]:text-gray-700 [&_li]:text-lg [&_li]:leading-relaxed
+        [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-2
+        [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:space-y-2
+        [&_li]:my-2 [&_li]:text-gray-700 [&_li]:text-lg [&_li]:leading-relaxed [&_li]:pl-2
         [&_hr]:my-12 [&_hr]:border-gray-200
         [&_table]:my-8 [&_table]:border-collapse [&_table]:w-full
         [&_th]:bg-gray-50 [&_th]:border [&_th]:border-gray-300 [&_th]:px-4 [&_th]:py-3 [&_th]:text-left [&_th]:font-semibold [&_th]:text-gray-900

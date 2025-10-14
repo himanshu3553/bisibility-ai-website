@@ -14,14 +14,14 @@ export function generateBlogMetadata(post: BlogPost): Metadata {
     authors: [{ name: post.author }],
     creator: 'Bisibility',
     publisher: 'Bisibility',
-    metadataBase: new URL('https://bisibility.com'),
+    metadataBase: new URL('https://bisibilityai.com'),
     alternates: {
-      canonical: `https://bisibility.com${canonical}`,
+      canonical: `https://bisibilityai.com${canonical}`,
     },
     openGraph: {
       type: 'article',
       locale: 'en_US',
-      url: `https://bisibility.com${canonical}`,
+      url: `https://bisibilityai.com${canonical}`,
       title,
       description,
       siteName: 'Bisibility',
@@ -58,7 +58,7 @@ export function generateBlogListMetadata(): Metadata {
     title: 'Blog | Bisibility',
     description: 'Stay updated with the latest insights and trends from our expert team.',
     keywords: 'blog, insights, articles, trends',
-    metadataBase: new URL('https://bisibility.com'),
+    metadataBase: new URL('https://bisibilityai.com'),
     alternates: {
       canonical: 'https://bisibility.com/blog',
     },
@@ -94,7 +94,7 @@ export function generateBlogListMetadata(): Metadata {
 }
 
 export function generateStructuredData(post: BlogPost) {
-  const baseUrl = 'https://bisibility.com'
+  const baseUrl = 'https://bisibilityai.com'
   const canonical = post.canonical || `/blog/${post.slug}`
   
   return {
@@ -137,7 +137,7 @@ export function generateStructuredData(post: BlogPost) {
 }
 
 export function generateBlogStructuredData() {
-  const baseUrl = 'https://bisibility.com'
+  const baseUrl = 'https://bisibilityai.com'
   
   return {
     '@context': 'https://schema.org',
