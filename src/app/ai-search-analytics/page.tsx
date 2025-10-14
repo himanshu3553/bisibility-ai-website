@@ -51,7 +51,7 @@ export default function AISearchAnalyticsPage() {
               AI Search <span className="gradient-text">Analytics</span>
             </h1>
             <p className="text-xl text-primary-700 leading-relaxed">
-              Monitor and optimize your brand performance across AI search platforms. 
+              Monitor and optimize your brand visibility across AI search platforms. 
               Get comprehensive insights into how your brand appears in ChatGPT, Perplexity, 
               Claude and Gemini responses.
             </p>

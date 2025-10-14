@@ -90,7 +90,7 @@ export default function HeroSection() {
                 </div>
               </h1>
               <p className="text-xl text-primary-700 leading-relaxed">
-                Monitor and optimize your brand performance across AI search platforms 
+                Monitor and optimize your brand visibility across AI search platforms 
                 like ChatGPT, Perplexity, Claude and Gemini. Get actionable insights 
                 on visibility, position, and sentiment.
               </p>
