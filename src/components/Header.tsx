@@ -2,11 +2,13 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { Menu, X, BarChart3 } from 'lucide-react'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
+  const pathname = usePathname()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,6 +27,9 @@ export default function Header() {
     { name: 'Blog', href: '/blog' },
   ]
 
+  // Determine if we should use light text (for dark backgrounds)
+  const shouldUseLightText = pathname === '/blog' && !isScrolled
+
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled 
@@ -38,7 +43,11 @@ export default function Header() {
             <div className="h-8 w-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
               <BarChart3 className="h-5 w-5 text-white" />
             </div>
-            <span className="text-2xl font-bold gradient-text">Bisibility AI</span>
+            <span className={`text-2xl font-bold ${
+              shouldUseLightText 
+                ? 'text-white' 
+                : 'gradient-text'
+            }`}>Bisibility AI</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -47,12 +56,20 @@ export default function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-primary-700 hover:text-primary-900 font-medium transition-colors duration-200"
+                className={`font-medium transition-colors duration-200 ${
+                  shouldUseLightText 
+                    ? 'text-white hover:text-blue-200' 
+                    : 'text-primary-700 hover:text-primary-900'
+                }`}
               >
                 {item.name}
               </Link>
             ))}
-            <Link href="/contact" className="btn-primary">
+            <Link href="/contact" className={`transition-colors duration-200 ${
+              shouldUseLightText 
+                ? 'bg-white text-blue-600 hover:bg-blue-50 px-4 py-2 rounded-lg font-medium' 
+                : 'btn-primary'
+            }`}>
               Get Started
             </Link>
           </div>
@@ -61,7 +78,11 @@ export default function Header() {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-primary-700 hover:text-primary-900 transition-colors duration-200"
+              className={`transition-colors duration-200 ${
+                shouldUseLightText 
+                  ? 'text-white hover:text-blue-200' 
+                  : 'text-primary-700 hover:text-primary-900'
+              }`}
             >
               {isMenuOpen ? (
                 <X className="h-6 w-6" />

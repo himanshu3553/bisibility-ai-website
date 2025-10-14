@@ -1,11 +1,13 @@
 ---
 title: "Maximizing Brand Visibility in ChatGPT Responses"
-excerpt: "Learn how to optimize your content and brand presence to appear accurately in ChatGPT conversations and responses."
+description: "Learn how to optimize your content and brand presence to appear accurately in ChatGPT conversations and responses."
 author: "Alex Smith"
-date: "2024-01-05"
-readTime: "7 min read"
+publishedAt: "2024-01-05"
 category: "ChatGPT"
 tags: ["ChatGPT", "Brand Visibility", "Content Strategy", "AI Optimization"]
+featured: true
+keywords: ["ChatGPT optimization", "brand visibility", "AI content strategy", "OpenAI optimization"]
+geoKeywords: ["ChatGPT", "AI visibility", "brand optimization", "content strategy"]
 ---
 
 # Maximizing Brand Visibility in ChatGPT Responses

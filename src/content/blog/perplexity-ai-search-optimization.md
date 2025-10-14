@@ -1,11 +1,13 @@
 ---
 title: "Optimizing for Perplexity AI Search Results"
-excerpt: "Discover how to improve your brand visibility in Perplexity AI search results and citations."
+description: "Discover how to improve your brand visibility in Perplexity AI search results and citations."
 author: "David Kim"
-date: "2023-12-28"
-readTime: "5 min read"
+publishedAt: "2023-12-28"
 category: "Perplexity"
 tags: ["Perplexity", "AI Search", "Citations", "SEO"]
+featured: false
+keywords: ["Perplexity optimization", "AI search", "citations", "search optimization"]
+geoKeywords: ["Perplexity", "AI search", "citations", "search optimization"]
 ---
 
 # Optimizing for Perplexity AI Search Results

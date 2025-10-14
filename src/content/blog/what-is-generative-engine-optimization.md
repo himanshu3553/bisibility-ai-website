@@ -1,11 +1,13 @@
 ---
 title: "What is Generative Engine Optimization (GEO)"
-excerpt: "Learn how to optimize your content for AI-powered search engines like ChatGPT, Perplexity, and Claude to improve your brand visibility in the AI era."
+description: "Learn how to optimize your content for AI-powered search engines like ChatGPT, Perplexity, and Claude to improve your brand visibility in the AI era."
 author: "Bisibility AI Team"
-date: "2024-01-15"
-readTime: "8 min read"
+publishedAt: "2024-01-15"
 category: "GEO"
 tags: ["GEO", "AI Search", "Content Optimization", "ChatGPT", "Perplexity"]
+featured: true
+keywords: ["generative engine optimization", "AI search", "content optimization", "ChatGPT optimization", "Perplexity optimization"]
+geoKeywords: ["GEO", "AI visibility", "generative AI", "LLM optimization"]
 ---
 
 # What is Generative Engine Optimization (GEO)

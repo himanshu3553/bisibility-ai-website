@@ -1,11 +1,13 @@
 ---
 title: "AI Brand Monitoring: Best Practices for 2024"
-excerpt: "Discover the essential strategies and tools for monitoring your brand across AI platforms like ChatGPT, Perplexity, and Claude."
+description: "Discover the essential strategies and tools for monitoring your brand across AI platforms like ChatGPT, Perplexity, and Claude."
 author: "Maria Johnson"
-date: "2024-01-10"
-readTime: "6 min read"
+publishedAt: "2024-01-10"
 category: "Brand Monitoring"
 tags: ["Brand Monitoring", "AI Platforms", "Best Practices", "ChatGPT", "Claude"]
+featured: false
+keywords: ["AI brand monitoring", "brand visibility", "AI platforms", "ChatGPT monitoring", "Claude monitoring"]
+geoKeywords: ["brand monitoring", "AI visibility", "competitive intelligence", "sentiment analysis"]
 ---
 
 # AI Brand Monitoring: Best Practices for 2024

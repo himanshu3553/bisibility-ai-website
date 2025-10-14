@@ -1,11 +1,13 @@
 ---
 title: "Essential Metrics for AI Search Analytics"
-excerpt: "Learn about the key metrics you should track to measure your brand performance across AI search platforms."
+description: "Learn about the key metrics you should track to measure your brand performance across AI search platforms."
 author: "Bisibility AI Team"
-date: "2023-12-20"
-readTime: "6 min read"
+publishedAt: "2023-12-20"
 category: "Analytics"
 tags: ["Analytics", "Metrics", "AI Search", "Brand Performance"]
+featured: false
+keywords: ["AI search analytics", "brand metrics", "AI performance", "search analytics"]
+geoKeywords: ["analytics", "AI metrics", "brand performance", "search insights"]
 ---
 
 # Essential Metrics for AI Search Analytics
