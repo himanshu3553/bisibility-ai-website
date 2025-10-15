@@ -131,7 +131,7 @@ export default function HeroSection() {
                 alt="Bisibility AI Platform"
                 width={600}
                 height={400}
-                className="w-full h-auto rounded-2xl shadow-2xl"
+                className="w-full h-auto"
                 priority
               />
             </div>
